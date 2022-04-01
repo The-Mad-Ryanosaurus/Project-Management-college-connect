@@ -12,7 +12,7 @@ export class Tab4Page {
 
   constructor(public platform: Platform, public navCtrl: NavController) { }
 
-  openUrl() {
+  openUrlLibrary() {
 
     this.platform.ready().then(()=>{
       let browser = new InAppBrowserObject("https://library.gmit.ie/")
