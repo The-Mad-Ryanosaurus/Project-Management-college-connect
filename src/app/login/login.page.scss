@@ -1,0 +1,19 @@
+.flex-center
+{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 100%;
+}
+.flex-center-2
+{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+ion-button[color="dark"]
+{
+    text-transform: initial;
+    color: darkgray;
+}

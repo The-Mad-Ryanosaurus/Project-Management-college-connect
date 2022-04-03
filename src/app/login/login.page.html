@@ -1,0 +1,27 @@
+<ion-content>
+  <div class="flex-center">
+   <ion-card>
+     <ion-card-header class="flex-center"><ion-card-title style="color: rgb(52, 52, 255);font-size:x-large"><b>College Connect</b></ion-card-title></ion-card-header>
+      <ion-card-header>
+        <ion-card-title class="flex-center" style="font-size: large;">Login</ion-card-title>
+      </ion-card-header>
+      <ion-card-content>
+        <ion-item>
+          <ion-item>
+            <ion-label position="floating">Email</ion-label>
+            <ion-input type="email" [(ngModel)]="email"></ion-input>
+          </ion-item>
+        </ion-item>
+        <ion-item>
+          <ion-item>
+            <ion-label position="floating">Password</ion-label>
+            <ion-input type="text" [(ngModel)]="password"></ion-input>
+          </ion-item>
+        </ion-item>
+        <ion-button class="flex-center-2" color="dark" fill="clear">Forgot Email/Password</ion-button>
+        <ion-button class="flex-center-2" color="dark" (click)="CheckLogin()" >Login</ion-button>
+        <ion-button class="flex-center-2" color="dark" fill="clear">Register</ion-button>
+      </ion-card-content>
+    </ion-card>
+  </div>
+</ion-content>
